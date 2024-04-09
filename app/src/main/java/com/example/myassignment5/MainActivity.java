@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 RequestBody body = RequestBody.create(payload, JSON);
                 Request request = new Request.Builder()
                         .url("https://api.openai.com/v1/chat/completions")
-                        .addHeader("Authorization", "Bearer " + "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")
+                        .addHeader("Authorization", "Bearer " + "enter your gpt keys here")
                         .post(body)
                         .build();
 
